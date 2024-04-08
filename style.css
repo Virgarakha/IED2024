@@ -1,0 +1,73 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: none;
+}
+
+html {
+    font-family: Arial, Helvetica, sans-serif;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #fff;
+}
+
+.navbar ul{
+    display: block;
+    justify-content: space-around;
+    gap: 30px;
+    position: fixed;
+}
+
+.nav {
+    width: 30px;
+    padding: 10px;
+}
+
+.teks1 .imeg img {
+    width: 20%;
+}
+
+.teks1 {
+    min-height: 200vh;
+    padding-top: 35vh;
+}
+
+.teks1 h1 {
+    color: black;
+    text-align: center;
+    padding: 0 40px;
+}
+
+.teks1 img {
+    width: 40%;
+    margin: 10px auto;
+    display: block;
+}
+
+.teks1 p {
+    text-align: center;
+    font-size: 15px;
+}
+
+.teks1 input {
+    padding: 10px;
+    margin: 10px auto;
+    display: block;
+    font-size: 15px;
+
+}
+
+.btn a {
+    text-decoration: none;
+    border-radius: 20px;
+    color: white;
+    background-color: black;
+    padding: 15px 20px;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    width: 20%;
+    margin: 10px auto;
+}
